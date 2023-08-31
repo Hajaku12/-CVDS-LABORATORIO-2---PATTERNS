@@ -41,11 +41,14 @@
 
 ## **HACER EL ESQUELETO DE LA APLICACIÓN**
 
-**¿Cuál fábrica hicist? y ¿Cuál es mejor?**
-
-
+**¿Cuál fábrica hiciste? y ¿Cuál es mejor?**
+  - **Simple Factory**: De las 3 opciones hicimos el simple factory. En cuanto a cual es mejor consideramos que no hay una respuesta definitiva ya que cada uno tiene propositos diferentes que llegan a ser mas utiles dependiendo de la situcaión. Por ejemplo simple factory esta pensado para tener una clase que se encargue de crear instancias de diferentes clases concretas basado en un parámetro de entrada; pero en algunos casos puede volverse dificil de mantener y extender mas adelante. Esto sucede enlos 3 patrones de diseño lo que genera que el uso de cada uno dependa de la situación para lo que necesitemos en nuestro software.
+  
 **¿Cuál(es) de las anteriores instrucciones se ejecutan y funcionan correctamente y por qué?**
-
+  - **Sin Parametros**: No se ejecuta ya que es obligatorio tener un parametro para que funcione.
+  - **qwerty**: No funciona ya que el parametro qwerty no es un parametro que exita en la memoria, por lo que es como sino ubiera parametro y sin parametro es imposible el funcionamiento.
+  - **pentagon**: Con este comando si funciona correctamente ya  que es un parametro valido; sin embargo se debe tener cuidado con las mayusculas y minusculas ya que si en nuetro codigo estuviera pentagon con p mayuscula el codigo no ubiera funcionado.
+  - **Hexagon**:  Con este comando si funciona correctamente ya  que es un parametro valido; sin embargo se debe tener cuidado con las mayusculas y minusculas ya que si en nuetro codigo estuviera hexagon con h minuscula el codigo no ubiera funcionado.
 
 
 ## Bibliografia:
