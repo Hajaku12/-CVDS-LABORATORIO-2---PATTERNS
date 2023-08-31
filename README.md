@@ -50,7 +50,8 @@
   - **pentagon**: Con este comando si funciona correctamente ya  que es un parametro valido; sin embargo se debe tener cuidado con las mayusculas y minusculas ya que si en nuetro codigo estuviera pentagon con p mayuscula el codigo no ubiera funcionado.
   - **Hexagon**:  Con este comando si funciona correctamente ya  que es un parametro valido; sin embargo se debe tener cuidado con las mayusculas y minusculas ya que si en nuetro codigo estuviera hexagon con h minuscula el codigo no ubiera funcionado.
 
-
+## **PARA QUE SIRVE "GITIGNORE"**
+El git ignore es un comando de git que se usa cuando queremos que un archivo espeecifico sea ignnorado, porque no queremos hacerle un control de versiones esto permite que al hacer git status no nos muestre el archivo que queremos que ignore. El git ignore se queda como un archivo de texto en la raiz del proyecto.
 ## Bibliografia:
 - https://maven.apache.org/what-is-maven.html
 - https://www.mojohaus.org/exec-maven-plugin/usage.html
