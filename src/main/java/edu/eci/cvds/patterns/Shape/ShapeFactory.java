@@ -5,19 +5,23 @@ import edu.eci.cvds.patterns.Shape.concrete.hexagon;
 import edu.eci.cvds.patterns.Shape.concrete.pentagon;
 import edu.eci.cvds.patterns.Shape.concrete.triangle;
 
-
 public class ShapeFactory {
 
-    public Shape create (RegularShapeType type){
-        switch(type) {
-        case Triangle:
-            return new triangle();
-        case Quadrilateral:
-            return new Quadrilateral();
-        case Pentagon:
-            return new pentagon();
-        case Hexagon:
-            return new hexagon();
+    public static Shape create(RegularShapeType type){
+        Shape shape = null;
+        switch (type){
+            case Triangle:
+                shape = new triangle();
+            case Hexagon:
+                shape = new hexagon();
+                break;
+            case Pentagon:
+                shape = new pentagon();
+                break;
+            case Quadrilateral:
+                shape = new Quadrilateral();
+                break;
         }
+        return shape;
     }
 }
